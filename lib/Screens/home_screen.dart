@@ -13,9 +13,9 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
 
   final List<Widget> _children = [
-    FirstTab(Colors.yellow),
-    FirstTab(Colors.orange),
-    FirstTab(Colors.red),
+    FirstTab(Colors.white, "Startseite"),
+    FirstTab(Colors.orange, "Mensa"),
+    FirstTab(Colors.red, "Sport"),
   ];
 
 

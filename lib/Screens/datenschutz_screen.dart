@@ -11,7 +11,7 @@ class _DatenschutzScreenState extends State<DatenschutzScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("Datenschutzbestimmungen"),
+        title: Text("Willkommen"),
 
       ),
 
@@ -20,19 +20,21 @@ class _DatenschutzScreenState extends State<DatenschutzScreen> {
           children: <Widget>[
 
 
-            Text(
-              "Wir benötigen Ihre Zustimmung",
+            Padding(
+              padding: const EdgeInsets.all(10.0),
+            child:Text(
+              "Organisation der Hochschule",
               style: TextStyle(
                 fontSize: 25,
-                color:Color.fromARGB(255, 0, 55, 255),
+                color:Color.fromARGB(255, 100, 200, 60),
 
               ),
             ),
-
+            ),
 
 
             Padding(
-              padding: const EdgeInsets.all(15.0),
+              padding: const EdgeInsets.all(20.0),
               child: Text(
                 "Wir verwenden verschiedene Technologien blbalblablba fjheofie dghswud sklijwuip difzuhdo sdjh foip sowie Funktionen für soziale Medien anbieten zu können",
                 style: TextStyle(
@@ -45,26 +47,48 @@ class _DatenschutzScreenState extends State<DatenschutzScreen> {
 
 
             Padding(
-                padding: const EdgeInsets.all(4.0),
+                padding: const EdgeInsets.all(10.0),
                 child: Container(
-                  width: double.infinity,
+                  width: 150,
                   color: Colors.blue[100],
-                  child: FlatButton(onPressed: () {}, child: Text("Details anzeigen",
-                    style: TextStyle(
-                      fontSize: 18,
+                  child: FlatButton(onPressed: () {},
+                      child: Text("Mensaplan",
+                        style: TextStyle(
+                          fontSize: 18,
                     ),
                   )
+
                   ),
 
                 )
             ),
 
+
             Padding(
-                padding: const EdgeInsets.all(4.0),
+                padding: const EdgeInsets.all(10.0),
                 child: Container(
-                  width: double.infinity,
+                  width: 150,
+                  color: Colors.blue[100],
+                  child: FlatButton(onPressed: () {},
+                      child: Text("Mensaplan",
+                        style: TextStyle(
+                          fontSize: 18,
+                        ),
+                      )
+
+                  ),
+
+                )
+            ),
+            
+            
+            
+            Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: Container(
+                  width: 150,
                   color: Colors.blue[900],
-                  child: FlatButton(onPressed: () {}, child: Text("Ok",
+                  child: FlatButton(onPressed: () {}, child: Text("Vorlesungen",
                     style: TextStyle(
                       fontSize: 18,
                       color: Color.fromARGB(255, 255, 255, 255),
